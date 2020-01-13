@@ -29,7 +29,6 @@ p {
 
 /* sections */
 .colored-section {
-  /* background-color: #ff4c68; */
   background-color: #0072c9;
   color: #fff;
 }
@@ -88,18 +87,15 @@ p {
 
 .features-icon {
   font-size: 200%;
-  /* color: #ef8172; */
   color: #0072c9;
 }
 
 .features-icon:hover {
-  /* color: #ff4c68; */
   color: #0089b7;
 }
 
 /* Testimonials */
 #testimonials {
-  /* background-color: #ef8172; */
   background-color: #0072c9;
 }
 
@@ -159,8 +155,13 @@ p {
   margin: 20px 10px;
 }
 
-/* submit-style */
+/* submit-page */
 .submit-style {
   background-color: #0089b7;
   text-align: left;
+}
+/* submit button */
+.sub-but {
+  font-size: 150%;
+  color: #fff;
 }
