@@ -14,7 +14,7 @@ p {
 /* heading */
 .big-heading {
   font-family: "Montserrat-thin";
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
@@ -29,11 +29,14 @@ p {
 
 /* sections */
 .colored-section {
-  background-color: #0072c9;
+
+  background-image: linear-gradient(darkblue, #fff);
   color: #fff;
+
 }
 .white-section {
   background-color: #fff;
+
 }
 
 /* navigation bar */
@@ -69,10 +72,9 @@ p {
 
 /* Title image */
 .title-image {
-  width: 60%;
-  transform: rotate(25deg);
+  width: 90%;
   position: absolute;
-  right: 30%;
+  left: 30%;
 }
 
 /* features */
@@ -87,7 +89,7 @@ p {
 
 .features-icon {
   font-size: 200%;
-  color: #0072c9;
+  color: darkblue;
 }
 
 .features-icon:hover {
@@ -110,11 +112,6 @@ p {
   margin: 20px;
 }
 
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
@@ -122,12 +119,12 @@ p {
 
 /* pricing */
 #pricing {
-  padding: 100px;
+  padding: 75px;
 }
 
 .price-text {
   font-size: 3rem;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 .pricing-column {
